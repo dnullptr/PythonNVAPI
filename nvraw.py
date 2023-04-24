@@ -21,6 +21,6 @@ print(my_gpu_struct.name) #gpu name
 
 # overclocking
 print(my_gpu_struct.core_temp) #gpu temp in celsius
-#my_gpu_struct.set_overclock(clocks) #GPU OC to 150 core and 200 memory
+#my_gpu_struct.set_overclock(clocks) #GPU OC to 150 core and 200 memory [unhint to apply OC]
 print(my_gpu_struct.get_overclock()) #will show the current OC
 print(my_gpu_struct.fan) #gpu fan
